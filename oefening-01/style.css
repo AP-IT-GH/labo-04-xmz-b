@@ -1,0 +1,21 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#knop-1:hover {
+    background-color: red;
+    color: blue;
+    border: 10px dotted grey;
+    box-shadow: 6px 7px 8px black;
+}
+
+#knop-2:active {
+    transform: translateY(2px);
+    color: gray;
+}
+
+#knop-3:focus {
+    outline: 3px dashed red;            
+}
